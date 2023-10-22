@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Labo07DLL.MainPage">
+
+    <StackLayout>
+        <ScrollView Orientation="Horizontal">
+            <StackLayout Orientation="Horizontal">
+                <Button Text="tareacss" x:Name="tareacss1"/>
+                <Button Text="ExplicitControlDemo" x:Name="ExplicitControlDemo1"/>
+                <Button Text="ExplicitDemo" x:Name="ExplicitDemo1"/>
+                <Button Text="ImplicitControlDemo" x:Name="ImplicitControlDemo1"/>
+                <Button Text="ImplicitDemo" x:Name="ImplicitDemo1"/>
+                <Button Text="GlobalDemo" x:Name="GlobalDemo1"/>
+                <Button Text="InheritanceDemo" x:Name="InheritanceDemo1"/>
+                <Button Text="DynamicDemo" x:Name="DynamicDemo1"/>
+            </StackLayout>
+        </ScrollView>
+        <StackLayout>
+            <Button Text="tareacss" x:Name="tareacss2"/>
+            <Button Text="ExplicitControlDemo" x:Name="ExplicitControlDemo2"/>
+            <Button Text="ExplicitDemo" x:Name="ExplicitDemo2"/>
+            <Button Text="ImplicitControlDemo" x:Name="ImplicitControlDemo2"/>
+            <Button Text="ImplicitDemo" x:Name="ImplicitDemo2"/>
+            <Button Text="GlobalDemo" x:Name="GlobalDemo2"/>
+            <Button Text="InheritanceDemo" x:Name="InheritanceDemo2"/>
+            <Button Text="DynamicDemo" x:Name="DynamicDemo2"/>
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>
+

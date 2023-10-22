@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Labo07DLL.tareacss">
+    <ContentPage.Resources>
+        <StyleSheet Source="Stylo/style.css" />
+    </ContentPage.Resources>
+    <StackLayout>
+        <Button Text="Botón Rojo" StyleClass="button-red" />
+        <Button Text="Botón Verde" StyleClass="button-green" />
+        <Button Text="Botón Azul" StyleClass="button-blue" />
+        <Button Text="Botón Teal" StyleClass="button-teal" />
+    </StackLayout>
+</ContentPage>
